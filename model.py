@@ -78,7 +78,7 @@ if start_train:
 #  ===== architecture end =====
     model.compile(loss = 'mse', optimizer = 'adam')
     history_object = model.fit(x=X_train, y=y_train, batch_size=batch_size,validation_split= 0.2, shuffle = True, epochs = 7, verbose = 1)
-    model.save('model_without_lr.h5')
+    model.save('model.h5')
     if print_history:
         ### print the keys contained in the history object
         print(history_object.history.keys())
