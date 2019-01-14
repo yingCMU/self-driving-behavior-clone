@@ -76,17 +76,29 @@ Data augmentation:
 1. flip image
 
 The final model architecture (model.py lines 73-84) consisted of a convolution neural network with the following layers and layer sizes:
+
 Convolution: 5x5, filter: 24, strides: 2x2, activation: ELU
+
 Convolution: 5x5, filter: 36, strides: 2x2, activation: ELU
+
 Convolution: 5x5, filter: 48, strides: 2x2, activation: ELU
+
 Convolution: 3x3, filter: 64, strides: 1x1, activation: ELU
+
 Convolution: 3x3, filter: 64, strides: 1x1, activation: ELU
+
 Drop out (0.5)
+
 Flattern
+
 Fully connected: neurons: 100, activation: ELU
+
 Fully connected: neurons: 50, activation: ELU
+
 Fully connected: neurons: 10, activation: ELU
+
 Fully connected: neurons: 1 (output)
+
 Here is a visualization of the architecture:
 
 ![alt text][image1]
@@ -116,4 +128,5 @@ I chose batch size of 128 (same as previous project)
 The ideal number of epochs was 7 as evidenced by overfitting over 7 (validation loss increasing while train loss dropping).
 I used an adam optimizer so that manually training the learning rate wasn't necessary.
 The following shows loss in training process:
+
 ![alt text][image7]
