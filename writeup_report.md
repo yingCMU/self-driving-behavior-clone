@@ -66,7 +66,7 @@ train loss: 0.0077 - val_loss: 0.0116
 train loss: 0.0083 - val_loss: 0.0108
 The simulation is running much better, but still fell out of track in bigger curves.
 7. To teach car to learn how to recover, I decided to use left and right camera images. Train and validation error turns higher which is expected with bigger data set but the autonomous car is not falling out of track any more.
-8. I added generator to reduce memory usage, but it turns out to be much slower (~2500s) than without generator
+8. I added [generator](./model_using_generator.py) to reduce memory usage, but it turns out to be much slower (~2500s) than without generator
 
 #### 2. Final Model Architecture
 Preprocessing:
