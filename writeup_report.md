@@ -13,9 +13,9 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./arch.png "Model Visualization"
-[image2]: ../train_data/IMG/center_2019_01_01_03_46_20_422.jpg "Center Image"
-[image3]: ../train_data/IMG/left_2019_01_01_03_46_20_422.jpg "Recovery Image (left)"
-[image4]: ../train_data/IMG/right_2019_01_01_03_46_20_422.jpg "Recovery Image (right)"
+[image2]: ./center_2019_01_01_03_46_20_422.jpg "Center Image"
+[image3]: ./left_2019_01_01_03_46_20_422.jpg "Recovery Image (left)"
+[image4]: ./right_2019_01_01_03_46_20_422.jpg "Recovery Image (right)"
 [image5]: ./original.png "Original Image"
 [image6]: ./flipped.png "Flipped Image"
 [image7]: ./history.png "Flipped Image"
